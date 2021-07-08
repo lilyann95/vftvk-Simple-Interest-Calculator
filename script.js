@@ -16,8 +16,8 @@ function compute()
     }
     
     //return the result after the computation
-    document.getElementById("result").innerHTML="If you deposit <strong>" + principal + "</strong>, \<br\>  at an interest rate of <strong>" + rate + 
-    "</strong>%. \<br\> You will receive an amount of <strong>" + interest + "</strong>, \<br\> in the year <strong>" + year + "</strong>";
+    document.getElementById("result").innerHTML="If you deposit <mark>" + principal + "</mark>, \<br\>  at an interest rate of <mark>" + rate + 
+    "</mark>%. \<br\> You will receive an amount of <mark>" + interest + "</mark>, \<br\> in the year <mark>" + year + "</mark>";
 }
 //updating the selected rate
 function updateRate(){
